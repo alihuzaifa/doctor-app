@@ -243,7 +243,10 @@ const SignUp = ({navigation}) => {
                 marginTop: 50,
               }}
               disabled={isClicked}
-              onPress={formik.submitForm}>
+              onPress={() => {
+                navigation.navigate('Login');
+              }}>
+              {/* onPress={formik.submitForm}> */}
               <Text
                 style={{
                   color: COLORS.white,

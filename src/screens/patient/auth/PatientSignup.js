@@ -183,7 +183,10 @@ const SignUpScreen = ({navigation}) => {
                 marginTop: 50,
               }}
               disabled={isClicked}
-              onPress={formik.submitForm}>
+              onPress={() => {
+                navigation.navigate('SignInScreen');
+              }}>
+              {/* onPress={formik.submitForm}> */}
               <Text
                 style={{
                   color: COLORS.white,
