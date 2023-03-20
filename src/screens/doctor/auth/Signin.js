@@ -129,10 +129,10 @@ const Signin = ({navigation}) => {
                 marginTop: 50,
               }}
               disabled={isClicked}
-              onPress={() => {
-                navigation.navigate('Dashboard');
-              }}>
-              {/* onPress={formik.handleSubmit}> */}
+              // onPress={() => {
+              //   navigation.navigate('Dashboard');
+              // }}>
+              onPress={formik.handleSubmit}>
               <Text
                 style={{color: COLORS.white, fontWeight: 'bold', fontSize: 18}}>
                 {isClicked ? <ActivityIndicator /> : 'Sign In'}

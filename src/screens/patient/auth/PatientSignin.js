@@ -131,10 +131,10 @@ const SignInScreen = ({navigation}) => {
                 alignItems: 'center',
                 marginTop: 50,
               }}
-              // onPress={formik.handleSubmit}>
-              onPress={() => {
-                navigation.navigate('PatientNavigator');
-              }}>
+              onPress={formik.handleSubmit}>
+              {/* // onPress={() => { */}
+              {/* //   navigation.navigate('PatientNavigator');
+              // }}> */}
               <Text
                 style={{color: COLORS.white, fontWeight: 'bold', fontSize: 18}}>
                 {isClick ? (
