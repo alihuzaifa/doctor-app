@@ -15,7 +15,7 @@ import STYLES from '../../../assets/style/index';
 import DateTimePickerModal from 'react-native-modal-datetime-picker';
 import {useFormik} from 'formik';
 import {DoctorInitialValues, DoctorSignup} from '../../../assets/schema';
-import DropDownPicker from 'react-native-dropdown-picker';
+// import DropDownPicker from 'react-native-dropdown-picker';
 import axios from 'axios';
 import NetChecking from '../../NetChecking';
 
