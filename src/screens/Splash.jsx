@@ -3,17 +3,10 @@ import {
   StyleSheet,
   Text,
   View,
-  TouchableOpacity,
-  Animated,
-  Modal,
-  TextInput,
 } from 'react-native';
 import React, {useEffect} from 'react';
 import COLORS from '../assets/common/Common';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import Icon from 'react-native-vector-icons/AntDesign';
-import Dots from 'react-native-vector-icons/Entypo';
-import STYLES from '../assets/style';
 
 const Splash = ({navigation}) => {
   const getData = async () => {
